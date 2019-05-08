@@ -1,6 +1,20 @@
-
-
 $(document).ready(function() {
+  // Redirect to old NewChoiceNY form
+  $('.opt-form form').on('submit', function(e) {
+    e.preventDefault();
+    window.location = 'https://www.newchoiceny.com/opt-out-today/';
+  });
+
+  $("#not_listed").change(function() {
+    if(this.checked) {
+      $('#union').attr('disabled', 'disabled');
+      $('.custom_union').show();
+    } else {
+      $('#union').removeAttr('disabled');
+      $('.custom_union').hide();
+    }
+  });
+
   $('.testimonial-slider').slick({
     dots: true,
     infinite: true,
@@ -46,14 +60,4 @@ $(document).ready(function() {
       }
     ]
   });
-
-  $("#not_listed").change(function() {
-    if(this.checked) {
-      $('#union').attr('disabled', 'disabled');
-      $('.custom_union').show();
-    } else {
-      $('#union').removeAttr('disabled');
-      $('.custom_union').hide();
-    }
-});
 });
