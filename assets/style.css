@@ -1,0 +1,931 @@
+body, html {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Merriweather', serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  padding-top: 45px;
+  background-image: url(./images/header_bg_left.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 33% auto;
+}
+
+.header .logo {
+  width: 174px;
+  height: auto;
+  margin-left: -3vw;
+}
+
+.header .header-images {
+  flex-wrap: wrap;
+}
+
+.header .header-images img {
+  margin-left: 33px;
+  width: 121px;
+  max-width: 121px;
+  height: auto;
+}
+
+.header .hero {
+  position: relative;
+  padding-top: 9.5vw;
+  padding-bottom: 9vw;
+}
+
+.header .hero h1 {
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 65px;
+}
+
+.header .hero p {
+  width: 80%;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: regular;
+  line-height: 30px;
+  color: #626375;
+}
+
+.header .hero .header-right-image {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45%;
+  max-width: 629px;
+}
+
+.header .hero .opt-form {
+  margin-top: 40px;
+}
+
+.header .hero .opt-form .opt-form__label {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #DB5F5B;
+}
+
+.header .hero .opt-form .form-control {
+  height: 55px;
+  padding: 20px;
+  border-radius: 28px;
+  border: 1px solid #D7D7D7;
+  font-size: 20px;
+}
+
+.header .hero .opt-form button {
+  margin-left: -55px;
+  width: 163px;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 28px;
+  background-color: #DB5F5B;
+  border-color: #DB5F5B;
+}
+
+.header .information {
+  position: relative;
+  padding-top: 9.5vw;
+  padding-bottom: 9vw;
+}
+
+.header .information h1 {
+  margin-top: 60px;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 65px;
+}
+
+.header .information h1:after {
+  content: ' ';
+  display: block;
+  position: relative;
+  margin-top: 40px;
+  width: 60px;
+  height: 2px;
+  background-color: #626375;
+}
+
+.header .information h4 {
+  margin-top: 40px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #626375;
+}
+
+.header .information p {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 26px;
+  color: #626375;
+}
+
+.header .information .information_inner {
+  max-width: 400px;
+  margin: auto;
+}
+
+.header .information .information_inner .progress_container {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.header .information .information_inner .progress_container label {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.header .information .information_inner .progress_container .progress_item_progress {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #FFC670;
+}
+
+.header .information .information_inner .progress_container .progress_item_complete {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #FFC670;
+}
+
+.header .information .information_inner .progress_container .progress_item {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #D7D7D7;
+}
+
+.header .information .information_inner .information_form {
+  margin-top: 20px;
+}
+
+.header .information .information_inner .information_form .col-first-name,
+.header .information .information_inner .information_form .col-city {
+  padding-right: 8px;
+}
+
+.header .information .information_inner .information_form .col-last-name,
+.header .information .information_inner .information_form .col-zipcode {
+  padding-left: 8px;
+}
+
+.header .information .information_inner .information_form .col-md-6,
+.header .information .information_inner .information_form .col-md-12 {
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+}
+
+.header .information .information_inner .information_form input[type="text"],
+.header .information .information_inner .information_form input[type="email"],
+.header .information .information_inner .information_form select {
+  height: 55px;
+  padding: 15px;
+  border: 1px solid #D7D7D7;
+  font-size: 20px;
+}
+
+.header .information .information_inner .information_form label {
+  display: flex;
+  align-items: center;
+}
+
+.header .information .information_inner .information_form .custom_union {
+  display: none;
+}
+
+.header .information .information_inner .information_form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.header .information .information_inner .information_form input[type="submit"] {
+  display: block;
+  margin: 40px auto 0;
+  width: 360px;
+  max-width: 100%;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 28px;
+  background-color: #DB5F5B;
+  border-color: #DB5F5B;
+}
+
+.main-content {
+}
+
+.main-content .how-it-works {
+  padding-top: 1vw;
+}
+
+.main-content .how-it-works h2 {
+  margin-bottom: 4vw;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #392D40;
+}
+
+.main-content .how-it-works .feature-group {
+  text-align: center;
+  margin-bottom: 4.5vw;
+}
+
+.main-content .how-it-works .feature-group > img {
+  width: 182px;
+  height: auto;
+}
+
+.main-content .how-it-works .feature-group .feature-title {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 27px;
+  line-height: 37px;
+  color: #392D40;
+}
+
+.main-content .how-it-works .feature-group .feature-description {
+  font-size: 20px;
+  line-height: 30px;
+  color: #626375;
+}
+
+.main-content .how-it-works .who-is-ny {
+  position: relative;
+  width: 75%;
+  margin: 4vw auto;
+}
+
+.main-content .how-it-works .who-is-ny .who-is-ny-image {
+  width: 100%;
+}
+
+.main-content .how-it-works .who-is-ny .who-is-ny-description {
+  position: absolute;
+  top: 2vw;
+  right: 3vw;
+  width: 100%;
+  text-align: center;
+}
+
+.main-content .how-it-works .who-is-ny .who-is-ny-description h4 {
+  font-size: 21px;
+  line-height: 37px;
+  color: #0D1242;
+}
+
+.main-content .how-it-works .who-is-ny .who-is-ny-description p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #0D1242;
+  opacity: 0.7;
+}
+
+.main-content .testimonial {
+  position: relative;
+}
+
+.main-content .testimonial .testimonial-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 45%;
+  max-width: 626px;
+}
+
+.main-content .testimonial .testimonial-carousel {
+  padding-top: 6.5vw;
+  padding-bottom: 5vw;
+  padding-left: 6.5vw;
+}
+
+.main-content .testimonial .testimonial-carousel h2 {
+  width: 30vw;
+  margin-bottom: 3vw;
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 65px;
+  color: #392D40;
+}
+
+.main-content .testimonial .testimonial-carousel .testimonial-slider .testimonial-item {
+  width: 45vw;
+  margin: 40px 15px;
+  padding: 27px 30px;
+  border-radius: 4px;
+  box-shadow: 0 11px 20px 3px rgba(0,0,0,0.07);
+  background-color: white;
+}
+
+.main-content .testimonial .testimonial-carousel .slick-slide:focus {
+  outline: none;
+}
+
+.main-content .testimonial .testimonial-carousel .testimonial-slider .testimonial-item .avatar {
+  width: 76px;
+  height: 76px;
+  margin-top: 27px;
+}
+
+.main-content .testimonial .testimonial-carousel .testimonial-slider .testimonial-item .testimonial-info {
+  margin-left: 20px;
+}
+
+.main-content .testimonial .testimonial-carousel .testimonial-info .quote,
+.main-content .testimonial .testimonial-carousel .testimonial-info .author {
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #392D40;
+}
+
+.main-content .testimonial .testimonial-carousel .testimonial-info .position {
+  margin-top: 14px;
+}
+
+.main-content .testimonial .testimonial-carousel .testimonial-info .position,
+.main-content .testimonial .testimonial-carousel .testimonial-info .address {
+  font-size: 14px;
+  line-height: 24px;
+  color: #392D40;
+}
+
+.main-content .testimonial .testimonial-carousel .testimonial-info .full-story {
+  font-size: 14px;
+  line-height: 24px;
+  color: #DB5F5B;
+}
+
+.main-content .feedbacks {
+  padding-top: 6.5vw;
+  padding-bottom: 8vw;
+  overflow: hidden;
+}
+
+.main-content .feedbacks h2 {
+  margin-bottom: 4.5vw;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #392D40;
+}
+
+.main-content .feedbacks .feedback {
+  text-align: center;
+}
+
+.main-content .feedbacks .feedback .trust-pilot {
+  width: 120px;
+}
+
+.main-content .feedbacks .trustworthy-carousel {
+  padding-right: 4vw;
+}
+
+.main-content .feedbacks .trustworthy-carousel.slick-slider .slick-prev {
+  left: -45px;
+}
+
+.main-content .feedbacks .trustworthy-carousel.slick-slider .slick-next {
+  right: 20px;
+}
+
+.main-content .feedbacks .trustworthy-carousel.slick-slider .slick-prev:before,
+.main-content .feedbacks .trustworthy-carousel.slick-slider .slick-next:before {
+  color: black !important;
+  font-size: 35px;
+}
+
+.main-content .feedbacks .trustworthy-item {
+  margin: 5px 15px;
+  font-size: 17.5px;
+  line-height: 21px;
+  color: black;
+}
+
+.main-content .feedbacks .trustworthy-item .feedback > span {
+  font-size: 14px;
+  color: rgba(25, 25, 25, 0.6);
+}
+
+.main-content .feedbacks .trustworthy-item .feedback > img {
+  width: 23px;
+  height: 23px;;
+}
+
+.main-content .feedbacks .trustworthy-item .feedback-title {
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.main-content .feedbacks .trustworthy-item .feedback-quote {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #191919;  
+}
+
+.main-content .feedbacks .trustworthy-item .author {
+  font-size: 14px;
+  color: rgba(25, 25, 25, 0.6);
+}
+
+.main-content .feedbacks .trustworthy-item .feedback-stars {
+  display: flex;
+}
+
+.main-content .feedbacks .trustworthy-item .feedback-stars > img {
+  margin-right: 3px;
+}
+
+.main-content .take-quiz {
+  padding-top: 5vw;
+}
+
+.main-content .take-quiz h2 {
+  font-size: 60px;
+  font-weight: bold;
+  line-height: 70px;
+  color: #392D40;
+}
+
+.main-content .take-quiz .embed-section {
+  width: 100%;
+  height: 766px;
+  background-color: #626375;
+}
+
+.main-content .take-quiz .embed-section .inline-embed-iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.main-content .common-questions {
+  position: relative;
+  padding-top: 6.5vw;
+  padding-bottom: 5vw;
+}
+
+.main-content .common-questions h2 {
+  margin-bottom: 1vw;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #392D40;
+}
+
+.main-content .common-questions .common-questions-sub {
+  margin-bottom: 4vw;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #626375;
+}
+
+.main-content .common-questions .question-block {
+  margin: 30px 0;
+  padding: 40px 30px;
+  border-radius: 4px;
+  box-shadow: 0 11px 30px 3px rgba(0,0,0,0.07);
+  background-color: white;
+}
+
+.main-content .common-questions .question-block .question-title {
+  margin-bottom: 1vw;
+  font-size: 30px;
+  line-height: 40px;
+  color: #DB5F5B;
+}
+
+.main-content .common-questions .question-block .question-content {
+  font-size: 16px;
+  line-height: 26px;
+  color: #392D40;
+}
+
+.main-content .common-questions .question-block .question-content a {
+  color: #392D40;
+  text-decoration: none;
+  border-bottom: 1px solid #FFC670;;
+}
+
+.main-content .common-questions .question-right-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  max-width: 626px;
+  z-index: -1;
+}
+
+.main-content .featured-in {
+  padding-top: 6.5vw;
+}
+
+.main-content .featured-in .container {
+  position: relative;
+}
+
+.main-content .featured-in .featured-in-lined-title {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  content: ' ';
+  left: 0;
+  top: 0;
+  text-align: center;
+  background-color: rgba(151, 151, 151, 0.2);
+}
+
+.main-content .featured-in .featured-in-lined-title .featured-in-title {
+  position: relative;
+  display: inline-block;
+  top: -12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color:#626375;
+  background-color: white;
+}
+
+.main-content .featured-in .featured-logos {
+  padding-top: 4vw;
+}
+
+.main-content .featured-in .featured-logos .featured-logo-item {
+  padding: 20px 50px;
+}
+
+.main-content .featured-in .featured-logos > img {
+  flex: 1;
+}
+
+.main-content .join-ny {
+  position: relative;
+  padding-top: 10.5vw;
+  padding-bottom: 10vw;
+}
+
+.main-content .join-ny .join-ny-section {
+  padding-top: 8.5vw;
+  padding-bottom: 5vw;
+}
+
+.main-content .join-ny .join-ny-section h2 {
+  font-size: 55px;
+  font-weight: bold;
+  line-height: 65px;
+}
+
+.main-content .join-ny .footer-right-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 45%;
+  max-width: 626px;
+}
+
+.main-content .join-ny .opt-form {
+  margin-top: 8vw;
+}
+
+.main-content .join-ny .opt-form .opt-form__label {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #DB5F5B;
+}
+
+.main-content .join-ny .opt-form .form-control {
+  height: 55px;
+  padding: 20px;
+  border-radius: 28px;
+  border: 1px solid #D7D7D7;
+  font-size: 20px;
+}
+
+.main-content .join-ny .opt-form button {
+  margin-left: -55px;
+  width: 163px;
+  height: 55px;
+  font-size: 20px;
+  border-radius: 28px;
+  background-color: #DB5F5B;
+  border-color: #DB5F5B;
+}
+
+.footer {
+  padding: 4vw 0 3vw;
+  margin-top: 5vw;
+}
+
+.footer .copyright {
+  width: 150px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #2A1334;
+}
+
+.footer .copyright > span {
+  display: block;
+}
+
+.footer .footer-social-items .btn {
+  margin-right: 15px;
+}
+
+.footer .footer-social-items .btn-message {
+  height: 45px;
+  border: 1px solid #626375;
+  border-radius: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-social-items .btn-message > span {
+  margin-left: 15px;
+}
+
+.footer .footer-social-items .btn-social {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  font-size: 25px;
+}
+
+
+
+@media (max-width: 991.98px) {
+  .header {
+    background-size: 45% auto;
+  }
+  .main-content .how-it-works .who-is-ny .who-is-ny-description h4 {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .main-content .how-it-works .who-is-ny .who-is-ny-description p {
+    font-size: 12px;
+    line-height: 19px;
+  }
+
+  .main-content .testimonial .testimonial-carousel h2 {
+    width: 100%;
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .main-content .testimonial .testimonial-carousel .testimonial-slider .testimonial-item {
+    flex-direction: column;
+  }
+
+  .main-content .testimonial .testimonial-carousel .testimonial-slider .testimonial-item .avatar {
+    margin-top: 0;
+    margin-bottom: 27px;
+  }
+
+  .main-content .testimonial .testimonial-carousel .testimonial-slider .testimonial-item .testimonial-info {
+    margin-left: 0;
+  }
+
+  .main-content .join-ny .join-ny-section h2 {
+    width: 100%;
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .header {
+    background-size: 60% auto;
+    padding-top: 25px;
+  }
+
+  .header .logo {
+    margin-bottom: 45px;
+  }
+
+  .header .hero h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .header .hero p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .header .hero .opt-form .opt-form__label {
+    font-size: 18px;
+  }
+
+  .header .hero .opt-form .form-control {
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .header .hero .opt-form button {
+    height: 45px;
+    font-size: 16px
+  }
+
+  .header .information h1 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .header .information p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .header .information .information_inner {
+    margin-top: 50px;
+  }
+
+  .main-content .how-it-works h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .main-content .how-it-works .feature-group .feature-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .main-content .how-it-works .feature-group .feature-description {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .main-content .how-it-works .who-is-ny {
+    width: 100%;
+  }
+
+  .main-content .how-it-works .who-is-ny .who-is-ny-description h4 {
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 22px;
+  }
+
+  .main-content .how-it-works .who-is-ny .who-is-ny-description p {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .main-content .how-it-works .who-is-ny .who-is-ny-description {
+    right: 6vw;
+  }
+
+  .main-content .testimonial .testimonial-carousel h2 {
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .main-content .testimonial .testimonial-carousel {
+    padding-left: 0;
+  }
+
+  .main-content .testimonial .testimonial-carousel .testimonial-slider .testimonial-item {
+    width: 84vw;
+  }
+
+  .main-content .testimonial .testimonial-carousel .testimonial-slider .testimonial-item .more-info {
+    flex-direction: column;
+  }
+
+  .main-content .feedbacks h2 {
+    margin-bottom: 7.5vw;
+    font-size: 36px;
+    line-height: 46px;
+  }
+
+  .main-content .feedbacks .trustworthy-carousel {
+    margin-top: 30px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  .main-content .feedbacks .trustworthy-carousel.slick-slider .slick-next {
+    right: 8px;
+  }
+
+  .main-content .feedbacks .trustworthy-carousel.slick-slider .slick-prev {
+    left: -8px;
+  }
+
+  .main-content .take-quiz h2 {
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center !important;
+  }
+
+  .main-content .common-questions .question-right-bg {
+    display: none;
+  }
+
+  .main-content .common-questions h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .main-content .common-questions .common-questions-sub {
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 27px;
+  }
+
+  .main-content .common-questions .question-block .question-title {
+    margin-bottom: 3vw;
+    font-size: 19px;
+    line-height: 29px;
+  }
+
+  .main-content .common-questions .question-block .question-content {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .main-content .common-questions .question-block {
+    padding: 30px 30px 10px;
+  }
+
+  .main-content .featured-in .featured-logos {
+    padding-top: 9vw;
+  }
+
+  .main-content .join-ny .join-ny-section h2 {
+    font-size: 35px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .main-content .join-ny .opt-form .opt-form__label {
+    font-size: 18px;
+  }
+
+  .main-content .join-ny .opt-form .form-control {
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .main-content .join-ny .opt-form button {
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .footer .copyright {
+    width: 100%;
+  }
+
+  .footer .footer-social-items {
+    margin-top: 40px;
+    justify-content: center !important;
+  }
+
+  .footer .footer-social-items .btn-message {
+    height: 35px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+
+}

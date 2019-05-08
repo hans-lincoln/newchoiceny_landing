@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>New Choice NY</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/slick-theme.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Leave those next 4 lines if you care about users using IE8 -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <img src="assets/images/logo.png" alt="logo" class="logo" />
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-12">
+            <div class="d-flex justify-content-between align-items-center header-images">
+              <img src="assets/images/trustpilot.png" alt="Trust Pilot" />
+              <img src="assets/images/bbb.png" alt="BBB" />
+              <img src="assets/images/ssl.png" alt="SSL Secure" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="information">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-lg-6 col-sm-12">
+              <h1>Enter your information</h1>
+              <p>Your privacy is important to us. This info is required to verify your identity and submit your request to the union.</p>
+            </div>
+            <div class="col-md-6 col-lg-6 col-sm-12 text-right">
+              <div class="information_inner">
+                <div class="progress_container">
+                  <div class="d-flex align-items-center">
+                    <div class="progress_item_progress"></div>
+                    <div class="progress_item"></div>
+                    <div class="progress_item"></div>
+                  </div>
+                  <label>1/3 Your Information</label>
+                </div>
+                <form class="information_form" action="step_2.html" method="post">
+                  <div class="row">
+                    <div class="col-md-6 col-first-name">
+                      <input type="text" placeholder="First Name*" class="form-control" name="first_name" required />
+                    </div>
+                    <div class="col-md-6 col-last-name">
+                      <input type="text" placeholder="Last Name*" class="form-control" name="last_name" required />
+                    </div>
+                    <div class="col-md-12">
+                      <input type="email" placeholder="Email*" class="form-control" name="email" required />
+                    </div>
+                    <div class="col-md-12">
+                      <input type="text" placeholder="Phone number*" class="form-control" name="phone_number" required />
+                    </div>
+                    <div class="col-md-12">
+                      <input type="submit" value="Continue" class="btn btn-primary" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="assets/script.js"></script>
+  </body>
+</html>
