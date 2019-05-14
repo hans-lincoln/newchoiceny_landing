@@ -11,7 +11,7 @@ include('templates/header.php');
             <form action="step_1" method="post">
               <label class="opt-form__label">Opting out is free and takes minutes</label>
               <div class="d-flex align-items-center form-group mt-3">
-                <input type="text" class="form-control" name="zip" value="" placeholder="Enter your zip code" />
+                <input type="text" class="form-control" name="zip" value="" placeholder="Enter your zip code" required />
                 <button type="submit" class="btn btn-primary" name="submit">Start</button>
               </div>
             </form>
@@ -253,7 +253,7 @@ include('templates/header.php');
               <form action="step_1" method="post">
                 <label class="opt-form__label">Opting out is free and takes minutes</label>
                 <div class="d-flex align-items-center form-group mt-3">
-                  <input type="text" class="form-control" name="zip" value="" placeholder="Enter your zip code" />
+                  <input type="text" class="form-control" name="zip" value="" placeholder="Enter your zip code" required />
                   <button type="submit" class="btn btn-primary" name="submit">Start</button>
                 </div>
               </form>

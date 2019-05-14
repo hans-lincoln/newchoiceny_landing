@@ -28,7 +28,7 @@
                   <input type="text" placeholder="City*" name="city" class="form-control" required/>
                 </div>
                 <div class="col-md-6 col-zipcode">
-                  <input type="text" placeholder="Zipcode*" name="zipcode" class="form-control" required />
+                  <input type="text" placeholder="Zipcode*" name="zipcode" class="form-control" value="<?php echo isset($_POST['zipcode']) ? $_POST['zipcode'] : ''; ?>" required />
                 </div>
                 <div class="col-md-12">
                   <select class="form-control" name="state">
@@ -36,6 +36,10 @@
                   </select>
                 </div>
                 <div class="col-md-12">
+                  <input type="hidden" value="<?php echo isset($_POST['first_name']) ? $_POST['first_name'] : ''; ?>" name="first_name" />
+                  <input type="hidden" value="<?php echo isset($_POST['last_name']) ? $_POST['last_name'] : ''; ?>" name="last_name" />
+                  <input type="hidden" value="<?php echo isset($_POST['email']) ? $_POST['email'] : ''; ?>" name="email" />
+                  <input type="hidden" value="<?php echo isset($_POST['phone_number']) ? $_POST['phone_number'] : ''; ?>" name="phone_number" />
                   <input type="submit" value="Continue" class="btn btn-primary" />
                 </div>
               </div>

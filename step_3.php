@@ -48,6 +48,14 @@
                   <input type="text" name="union_id" class="form-control" placeholder="Union ID # (Optional)"/>
                 </div>
                 <div class="col-md-12">
+                  <input type="hidden" value="<?php echo isset($_POST['first_name']) ? $_POST['first_name'] : ''; ?>" name="first_name" />
+                  <input type="hidden" value="<?php echo isset($_POST['last_name']) ? $_POST['last_name'] : ''; ?>" name="last_name" />
+                  <input type="hidden" value="<?php echo isset($_POST['email']) ? $_POST['email'] : ''; ?>" name="email" />
+                  <input type="hidden" value="<?php echo isset($_POST['phone_number']) ? $_POST['phone_number'] : ''; ?>" name="phone_number" />
+                  <input type="hidden" value="<?php echo isset($_POST['zipcode']) ? $_POST['zipcode'] : ''; ?>" name="zipcode" />
+                  <input type="hidden" value="<?php echo isset($_POST['address_1']) ? $_POST['address_1'] : ''; ?>" name="address_1" />
+                  <input type="hidden" value="<?php echo isset($_POST['address_2']) ? $_POST['address_2'] : ''; ?>" name="address_2" />
+                  <input type="hidden" value="<?php echo isset($_POST['city']) ? $_POST['city'] : ''; ?>" name="city" />
                   <input type="submit" value="Submit" class="btn btn-primary" />
                 </div>
               </div>

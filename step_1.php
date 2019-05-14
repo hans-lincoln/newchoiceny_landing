@@ -31,6 +31,7 @@
                   <input type="text" placeholder="Phone number*" class="form-control" name="phone_number" required />
                 </div>
                 <div class="col-md-12">
+                  <input type="hidden" value="<?php echo isset($_POST['zip']) ? $_POST['zip'] : ''; ?>" name="zipcode" />
                   <input type="submit" value="Continue" class="btn btn-primary" />
                 </div>
               </div>

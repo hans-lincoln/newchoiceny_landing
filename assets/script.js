@@ -1,9 +1,9 @@
 $(document).ready(function() {
   // Redirect to old NewChoiceNY form
-  $('.opt-form form').on('submit', function(e) {
-    e.preventDefault();
-    window.location = 'https://www.newchoiceny.com/opt-out-today/';
-  });
+  // $('.opt-form form').on('submit', function(e) {
+  //   e.preventDefault();
+  //   window.location = 'https://www.newchoiceny.com/opt-out-today/';
+  // });
 
   $("#not_listed").change(function() {
     if(this.checked) {
