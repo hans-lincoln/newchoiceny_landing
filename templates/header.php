@@ -38,6 +38,36 @@
       src="https://www.facebook.com/tr?id=327722311217818&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Ads: 747649581 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-747649581"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-747649581'); </script>
+    <!-- Pinterest Tag -->
+    <script>
+    !function(e){if(!window.pintrk){window.pintrk = function () {
+    window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var
+     n=window.pintrk;n.queue=[],n.version="3.0";var
+     t=document.createElement("script");t.async=!0,t.src=e;var
+     r=document.getElementsByTagName("script")[0];
+     r.parentNode.insertBefore(t,r)}}("https://s.pinimg.com/ct/core.js");
+    pintrk('load', '2612401607441', {em: '<user_email_address>'});
+    pintrk('page');
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none;" alt=""
+     src="https://ct.pinterest.com/v3/?tid=2612401607441&pd[em]=<hashed_email_address>&noscript=1
+    https://ct.pinterest.com/v3/?tid=2612401607441&pd[em]=<hashed_email_address>&noscript=1
+    " />
+    </noscript>
+    <!-- end Pinterest Tag -->
+    <!-- Hotjar Tracking Code for https://teachers.newchoiceny.com -->
+    <script>
+      (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1316040,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
   </head>
   <body>
     <header class="header" id="header">
