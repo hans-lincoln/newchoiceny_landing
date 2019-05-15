@@ -68,6 +68,9 @@
         a.appendChild(r);
       })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+    <!-- Leadquizzes 3 tracking script -->
+    <script src='https://lq3-production.s3.amazonaws.com/lead_quizzes_3.0/tracking/js/properties/ngtfbcxwouoo6q.js'></script>
+    <!-- End of Leadquizzes 3 script -->
   </head>
   <body>
     <header class="header" id="header">
