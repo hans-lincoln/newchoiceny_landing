@@ -17,7 +17,7 @@
               </div>
               <label>3/3 Employer & Union Information</label>
             </div>
-            <form class="information_form" action="verify" method="post">
+            <form class="information_form" id="final_form" action="verify" method="post">
               <div class="row">
                 <div class="col-md-12">
                   <select name="employer_county" id="employer_county" class="form-control" required>
@@ -36,7 +36,7 @@
                   </label>
                 </div>
                 <div class="col-md-12 custom_employer">
-                  <input type="text" name="employer_name" class="form-control" placeholder="Enter Employer Name" />
+                  <input type="text" name="custom_employer_name" class="form-control" placeholder="Enter Employer Name" />
                 </div>
                 <div class="col-md-12">
                   <select name="union" id="union" class="form-control" required>
@@ -50,7 +50,7 @@
                   </label>
                 </div>
                 <div class="col-md-12 custom_union">
-                  <input type="text" name="union_name" class="form-control" placeholder="Enter Union Name" />
+                  <input type="text" name="custom_union_name" class="form-control" placeholder="Enter Union Name" />
                 </div>
                 <div class="col-md-12">
                   <input type="text" name="union_id" class="form-control" placeholder="Union ID # (Optional)"/>
