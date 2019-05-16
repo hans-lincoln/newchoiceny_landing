@@ -5,13 +5,23 @@ $(document).ready(function() {
   //   window.location = 'https://www.newchoiceny.com/opt-out-today/';
   // });
 
-  $("#not_listed").change(function() {
+  $("#union_not_listed").change(function() {
     if(this.checked) {
       $('#union').attr('disabled', 'disabled');
       $('.custom_union').show();
     } else {
       $('#union').removeAttr('disabled');
       $('.custom_union').hide();
+    }
+  });
+
+  $("#emp_not_listed").change(function() {
+    if(this.checked) {
+      $('#employer_name').attr('disabled', 'disabled');
+      $('.custom_employer').show();
+    } else {
+      $('#employer_name').removeAttr('disabled');
+      $('.custom_employer').hide();
     }
   });
 
@@ -60,4 +70,28 @@ $(document).ready(function() {
       }
     ]
   });
+
+  $('#employer_county').change(function(evt) {
+    if (!evt.target.value) {
+      return;
+    }
+    var api = './county.php?county=' + evt.target.value;
+    $.ajax({
+      url: api,
+      method: 'get',
+      dataType: 'json',
+      success: function(res) {
+        if (res.data) {
+          $('#employer_name').empty();
+          res.data.counties.forEach(function(county) {
+            $('#employer_name').append($('<option></option>').attr('value', county.email).text(county.name));
+          })
+        }
+      },
+      error: function() {
+
+      }
+    })
+
+  })
 });

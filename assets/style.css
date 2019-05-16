@@ -217,7 +217,8 @@ img {
   align-items: center;
 }
 
-.header .information .information_inner .information_form .custom_union {
+.header .information .information_inner .information_form .custom_union,
+.header .information .information_inner .information_form .custom_employer {
   display: none;
 }
 
