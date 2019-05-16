@@ -5,13 +5,18 @@ $(document).ready(function() {
   //   window.location = 'https://www.newchoiceny.com/opt-out-today/';
   // });
 
+  var employerNotFound = false;
+  var unionNotFound = false;
+
   $("#union_not_listed").change(function() {
     if(this.checked) {
-      $('#union').attr('disabled', 'disabled');
+      $('#union_name').attr('disabled', 'disabled');
       $('.custom_union').show();
+      unionNotFound = true;
     } else {
-      $('#union').removeAttr('disabled');
+      $('#union_name').removeAttr('disabled');
       $('.custom_union').hide();
+      unionNotFound = false;
     }
   });
 
@@ -19,9 +24,11 @@ $(document).ready(function() {
     if(this.checked) {
       $('#employer_name').attr('disabled', 'disabled');
       $('.custom_employer').show();
+      employerNotFound = true;
     } else {
       $('#employer_name').removeAttr('disabled');
       $('.custom_employer').hide();
+      employerNotFound = false;
     }
   });
 
@@ -102,8 +109,18 @@ $(document).ready(function() {
 
   })
 
+  // orgType must be 'employer' or 'union'
+  function getOrgName(orgType) {
+    if (eval(orgType+'NotFound')) {
+      return $("input[name='custom_"+orgType+"_name']")[0].value;
+    }
+
+    return $('#'+orgType+'_name option:selected').text();
+  }
+
   $('#final_form').submit(function(event) {
     event.preventDefault();
+
     var hookUrl = 'https://api.edunity.us/v1/submissions';
     var data = {
       campaign_uuid: 'e7158017-282f-482d-9ffa-c3281493296f',
@@ -116,13 +133,14 @@ $(document).ready(function() {
       zip: this.zipcode.value,
       phone: this.phone_number.value,
       email: this.email.value,
-      union_name: this.union.value,
+      union_name: getOrgName('union'),
       custom_field_4: $('#employer_county option:selected').data('email'),
       custom_field_5: $('#employer_name option:selected').data('email'),
       custom_field_6: $('#employer_name option:selected').data('fax'),
-      custom_field_7: $('#employer_name option:selected').text()
+      custom_field_7: getOrgName('employer')
     }
     var email = this.email.value;
+
     $.ajax({
       url: hookUrl,
       method: 'post',

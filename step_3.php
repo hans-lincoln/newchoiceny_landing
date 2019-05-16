@@ -39,7 +39,7 @@
                   <input type="text" name="custom_employer_name" class="form-control" placeholder="Enter Employer Name" />
                 </div>
                 <div class="col-md-12">
-                  <select name="union" id="union" class="form-control" required>
+                  <select name="union_name" id="union_name" class="form-control" required>
                     <option value="">Choose Union</option> <option value="CSEA: Civil Service Employees Association">CSEA: Civil Service Employees Association</option><option value="DC37: AFSCME District Council 37 (NYC)">DC37: AFSCME District Council 37 (NYC)</option><option value="LEEBA: Law Enforcement Employees Benevolent Association">LEEBA: Law Enforcement Employees Benevolent Association</option><option value="NYSUT: New York State United Teachers">NYSUT: New York State United Teachers</option><option value="PEF: Public Employees Federation">PEF: Public Employees Federation</option><option value="PSC: Professional Staff Congress (CUNY)">PSC: Professional Staff Congress (CUNY)</option><option value="UFT: United Federation of Teachers (NYC)">UFT: United Federation of Teachers (NYC)</option><option value="UUP: United University Professions (SUNY)">UUP: United University Professions (SUNY)</option>
                   </select>
                 </div>
