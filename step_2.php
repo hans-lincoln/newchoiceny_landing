@@ -31,8 +31,8 @@
                   <input type="text" placeholder="Zipcode*" name="zipcode" class="form-control" value="<?php echo isset($_POST['zipcode']) ? $_POST['zipcode'] : ''; ?>" required />
                 </div>
                 <div class="col-md-12">
-                  <select class="form-control" name="state">
-                    <option>New York</option>
+                  <select class="form-control" name="state" disabled="true">
+                    <option selected="true">New York</option>
                   </select>
                 </div>
                 <div class="col-md-12">
