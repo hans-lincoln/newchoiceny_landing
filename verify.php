@@ -4,6 +4,18 @@ if (!isset($_GET['email'])) {
 }
 ?>
 <?php include('templates/header.php'); ?>
+  <!-- Event snippet for Edunity new page conversion page -->
+  <script>
+    gtag('event', 'conversion', { 'send_to': 'AW-747649581/Fd9sCPjtvJ0BEK30wOQC', 'transaction_id': '' });
+  </script>
+  <script>
+    fbq('track', 'CompleteRegistration');
+  </script>
+  <script>
+  pintrk('track', 'checkout', {
+    value: 100
+  });
+  </script>
   <section class="information">
     <div class="container">
       <div class="row">

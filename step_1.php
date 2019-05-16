@@ -1,4 +1,7 @@
 <?php include('templates/header.php'); ?>
+  <script>
+    fbq('track', 'InitiateCheckout');
+  </script>
   <section class="information">
     <div class="container">
       <div class="row">
