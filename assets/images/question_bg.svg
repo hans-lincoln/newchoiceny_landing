@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="622px" height="1027px" viewBox="0 0 622 1027" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>question_bg@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="31.6380827%" y1="50%" x2="68.3619173%" y2="45.5294316%" id="linearGradient-1">
+            <stop stop-color="#FFDAA3" offset="0%"></stop>
+            <stop stop-color="#FFC670" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="v4---Updated" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0---Homepage" transform="translate(-818.000000, -3836.000000)" fill="url(#linearGradient-1)">
+            <g id="Group-10" transform="translate(171.000000, 3833.000000)">
+                <path d="M1273,0 L687.271807,436.30377 C642.980653,469.295861 633.820952,531.94631 666.813043,576.237465 C672.604798,584.012769 679.496503,590.904474 687.271807,596.69623 L1273,1033 L1273,0 Z" id="question_bg"></path>
+            </g>
+        </g>
+    </g>
+</svg>

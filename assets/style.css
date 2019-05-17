@@ -12,7 +12,7 @@ img {
 
 .header {
   padding-top: 45px;
-  background-image: url(./images/header_bg_left.png);
+  background-image: url(./images/header_bg_left.svg);
   background-repeat: no-repeat;
   background-position: left top;
   background-size: 33% auto;

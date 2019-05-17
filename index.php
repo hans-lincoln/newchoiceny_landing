@@ -214,7 +214,7 @@
           </div>
         </div>
       </div>
-      <img src="assets/images/question_bg.png" alt="Question Right Background" class="question-right-bg" />
+      <img src="assets/images/question_bg.svg" alt="Question Right Background" class="question-right-bg" />
     </section>
 
     <section class="featured-in">
@@ -243,7 +243,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 col-lg-6 d-none d-sm-block position-static">
-            <img src="assets/images/testimonial_bg.png" class="footer-right-image" alt="Header Image Right" />
+            <img src="assets/images/testimonial_bg.svg" class="footer-right-image" alt="Header Image Right" />
           </div>
           <div class="col-md-7 col-lg-6 col-sm-12">
             <div class="join-ny-section">
