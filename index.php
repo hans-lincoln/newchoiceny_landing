@@ -156,7 +156,7 @@
 
     <section class="take-quiz">
       <div class="container">
-        <h2 class="text-left">Take the quiz</h2>
+        <h2 class="text-center">Take the quiz</h2>
         <div class="embed-section">
           <iframe class="inline-embed-iframe" src="https://content.leadquizzes.com/lp/858gj-aSCw?embed=1" frameborder="0" style="width:100%; float:left;"></iframe>
         </div>
