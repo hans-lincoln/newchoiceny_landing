@@ -8,29 +8,57 @@ $(document).ready(function() {
   var employerNotFound = false;
   var unionNotFound = false;
 
-  $("#union_not_listed").change(function() {
-    if(this.checked) {
-      $('#union_name').attr('disabled', 'disabled');
-      $('.custom_union').show();
-      unionNotFound = true;
-    } else {
-      $('#union_name').removeAttr('disabled');
-      $('.custom_union').hide();
-      unionNotFound = false;
-    }
+  ['employer', 'union'].forEach(function(org) {
+    $("#"+org+"_not_listed").change(function() {
+      if(this.checked) {
+        $('#'+org+'_name').attr('disabled', 'disabled');
+        $('#custom_'+org+'_name').removeAttr('disabled');
+        $('.custom_'+org).show();
+        if (org === 'employer') {
+          employerNotFound = true;
+        } else {
+          unionNotFound = true;
+        }
+      } else {
+        $('#'+org+'_name').removeAttr('disabled');
+        $('#custom_'+org+'_name').attr('disabled', 'disabled');
+        $('.custom_'+org) .hide();
+        if (org === 'employer') {
+          employerNotFound = false;
+        } else {
+          unionNotFound = false;
+        }
+      }
+    });
   });
 
-  $("#emp_not_listed").change(function() {
-    if(this.checked) {
-      $('#employer_name').attr('disabled', 'disabled');
-      $('.custom_employer').show();
-      employerNotFound = true;
-    } else {
-      $('#employer_name').removeAttr('disabled');
-      $('.custom_employer').hide();
-      employerNotFound = false;
-    }
-  });
+  // $("#union_not_listed").change(function() {
+  //   if(this.checked) {
+  //     $('#union_name').attr('disabled', 'disabled');
+  //     $('#custom_union_name').removeAttr('disabled');
+  //     $('.custom_union').show();
+  //     unionNotFound = true;
+  //   } else {
+  //     $('#union_name').removeAttr('disabled');
+  //     $('#custom_union_name').attr('disabled', 'disabled');
+  //     $('.custom_union').hide();
+  //     unionNotFound = false;
+  //   }
+  // });
+
+  // $("#emp_not_listed").change(function() {
+  //   if(this.checked) {
+  //     $('#employer_name').attr('disabled', 'disabled');
+  //     $('#custom_employer_name').removeAttr('disabled');
+  //     $('.custom_employer').show();
+  //     employerNotFound = true;
+  //   } else {
+  //     $('#employer_name').removeAttr('disabled');
+  //     $('#custom_employer_name').attr('disabled', 'disabled');
+  //     $('.custom_employer').hide();
+  //     employerNotFound = false;
+  //   }
+  // });
 
   $('.testimonial-slider').slick({
     dots: true,
@@ -78,6 +106,11 @@ $(document).ready(function() {
     ]
   });
 
+  function createEmployerOption(text, attr) {
+    var option = $('<option>').attr(attr).text(text);
+    option.appendTo('#employer_name');
+  }
+
   $('#employer_county').change(function(evt) {
     if (!evt.target.value) {
       return;
@@ -90,15 +123,13 @@ $(document).ready(function() {
       success: function(res) {
         if (res.data) {
           $('#employer_name').empty();
+          createEmployerOption('Choose Employer Name*', {});
           res.data.counties.forEach(function(employer) {
-            $('<option>')
-              .attr({ 
-                value: employer.name,
-                'data-email': employer.email,
-                'data-fax': employer.fax
-              })
-              .text(employer.name)
-              .appendTo('#employer_name');
+            var option = createEmployerOption(employer.name, {
+              value: employer.name,
+              'data-email': employer.email,
+              'data-fax': employer.fax
+            });
           });
         }
       },
@@ -134,9 +165,9 @@ $(document).ready(function() {
       phone: this.phone_number.value,
       email: this.email.value,
       union_name: getOrgName('union'),
-      custom_field_4: $('#employer_county option:selected').data('email'),
-      custom_field_5: $('#employer_name option:selected').data('email'),
-      custom_field_6: $('#employer_name option:selected').data('fax'),
+      custom_field_4: $('#employer_county:enabled option:selected').data('email'),
+      custom_field_5: $('#employer_name:enabled option:selected').data('email'),
+      custom_field_6: $('#employer_name:enabled option:selected').data('fax'),
       custom_field_7: getOrgName('employer')
     }
     var email = this.email.value;

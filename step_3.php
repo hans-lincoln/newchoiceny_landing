@@ -30,13 +30,13 @@
                   </select>
                 </div>
                 <div class="col-md-12 text-left">
-                  <label for="emp_not_listed">
-                    <input name="emp_not_listed" id="emp_not_listed" type="checkbox" />
+                  <label for="employer_not_listed">
+                    <input name="employer_not_listed" id="employer_not_listed" type="checkbox"/>
                     My Employer is not listed
                   </label>
                 </div>
                 <div class="col-md-12 custom_employer">
-                  <input type="text" name="custom_employer_name" class="form-control" placeholder="Enter Employer Name" />
+                  <input id="custom_employer_name" type="text" name="custom_employer_name" class="form-control" placeholder="Enter Employer Name" disabled required/>
                 </div>
                 <div class="col-md-12">
                   <select name="union_name" id="union_name" class="form-control" required>
@@ -50,7 +50,7 @@
                   </label>
                 </div>
                 <div class="col-md-12 custom_union">
-                  <input type="text" name="custom_union_name" class="form-control" placeholder="Enter Union Name" />
+                  <input id="custom_union_name" type="text" name="custom_union_name" class="form-control" placeholder="Enter Union Name" disabled required/>
                 </div>
                 <div class="col-md-12">
                   <input type="text" name="union_id" class="form-control" placeholder="Union ID # (Optional)"/>
