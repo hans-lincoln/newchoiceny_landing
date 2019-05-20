@@ -92,7 +92,6 @@
                         <div class="address">
                           New York State Dep. of Environmental Conservation
                         </div>
-                        <a href="#" class="full-story">Full Story ></a>
                       </div>
                     </div>
                   </div>
@@ -115,7 +114,6 @@
                         <div class="address">
                           New York State Dep. of Environmental Conservation
                         </div>
-                        <a href="#" class="full-story">Full Story ></a>
                       </div>
                     </div>
                 </div>
@@ -182,7 +180,7 @@
               <p class="question-content">
                 No. Pay and benefits are decided by which bargaining unit you’re in, not whether you pay a union. And if you’re a civil service employee, your pay is often fixed by law.
                 <br /><br />
-                <a href="#">Watch the video</a>
+                <a href="https://www.youtube.com/watch?v=WkeU-QNN38o" target="_blank">Watch the video</a>
               </p>
             </div>
             <div class="question-block">
@@ -278,10 +276,10 @@
               <i class="fas fa-comment-alt"></i>
               <span>CHAT WITH US</span>
             </button> -->
-            <a target="_blank" href="#" class="btn btn-dark btn-social">
+            <a target="_blank" href="http://facebook.com/newchoiceny" class="btn btn-dark btn-social">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a target="_blank" href="#" class="btn btn-dark btn-social">
+            <a target="_blank" href="https://twitter.com/newchoiceny" class="btn btn-dark btn-social">
               <i class="fab fa-twitter"></i>
             </a>
           </div>
