@@ -1,10 +1,4 @@
 $(document).ready(function() {
-  // Redirect to old NewChoiceNY form
-  // $('.opt-form form').on('submit', function(e) {
-  //   e.preventDefault();
-  //   window.location = 'https://www.newchoiceny.com/opt-out-today/';
-  // });
-
   var employerNotFound = false;
   var unionNotFound = false;
 
@@ -31,34 +25,6 @@ $(document).ready(function() {
       }
     });
   });
-
-  // $("#union_not_listed").change(function() {
-  //   if(this.checked) {
-  //     $('#union_name').attr('disabled', 'disabled');
-  //     $('#custom_union_name').removeAttr('disabled');
-  //     $('.custom_union').show();
-  //     unionNotFound = true;
-  //   } else {
-  //     $('#union_name').removeAttr('disabled');
-  //     $('#custom_union_name').attr('disabled', 'disabled');
-  //     $('.custom_union').hide();
-  //     unionNotFound = false;
-  //   }
-  // });
-
-  // $("#emp_not_listed").change(function() {
-  //   if(this.checked) {
-  //     $('#employer_name').attr('disabled', 'disabled');
-  //     $('#custom_employer_name').removeAttr('disabled');
-  //     $('.custom_employer').show();
-  //     employerNotFound = true;
-  //   } else {
-  //     $('#employer_name').removeAttr('disabled');
-  //     $('#custom_employer_name').attr('disabled', 'disabled');
-  //     $('.custom_employer').hide();
-  //     employerNotFound = false;
-  //   }
-  // });
 
   $('.testimonial-slider').slick({
     dots: true,
