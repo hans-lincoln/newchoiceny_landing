@@ -131,7 +131,7 @@ $(document).ready(function() {
       phone: this.phone_number.value,
       email: this.email.value,
       union_name: getOrgName('union'),
-      custom_field_4: $('#employer_county:enabled option:selected').data('email'),
+      custom_field_4: $('#employer_county option:selected').text(),
       custom_field_5: $('#employer_name:enabled option:selected').data('email'),
       custom_field_6: $('#employer_name:enabled option:selected').data('fax'),
       custom_field_7: getOrgName('employer')
