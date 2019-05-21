@@ -38,6 +38,14 @@
       src="https://www.facebook.com/tr?id=327722311217818&ev=PageView&noscript=1"
     /></noscript>
     <!-- End Facebook Pixel Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-41140288-4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-41140288-4');
+    </script>
     <!-- Global site tag (gtag.js) - Google Ads: 747649581 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-747649581"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-747649581'); </script>
     <!-- Pinterest Tag -->
     <script>
