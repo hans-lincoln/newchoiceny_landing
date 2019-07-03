@@ -281,9 +281,6 @@
             <a target="_blank" href="http://facebook.com/edunity.io" class="btn btn-dark btn-social">
               <i class="fab fa-facebook-f"></i>
             </a>
-            <a target="_blank" href="#" class="btn btn-dark btn-social">
-              <i class="fab fa-twitter"></i>
-            </a>
           </div>
         </div>
       </div>
