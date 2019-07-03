@@ -77,14 +77,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-6 col-sm-12">
-            <img src="assets/images/logo.png" alt="logo" class="logo" />
+            <a href="/">
+              <img src="assets/images/edunity-logo@2x.png" alt="logo" class="logo" />
+            </a>
           </div>
           <div class="col-md-6 col-lg-6 col-sm-12">
             <div class="d-flex justify-content-between align-items-center header-images" style="justify-content:center !important;">
               <!-- <img src="assets/images/trustpilot.png" alt="Trust Pilot" /> -->
-              <img src="assets/images/bbb.png" alt="BBB" />
+              <img src="assets/images/trustpilot-badge@2x.png" alt="Trust Pilot" />
               <img src="assets/images/ssl.png" alt="SSL Secure" />
+              <button type="submit" class="btn btn-outline-primary header-btn" name="submit">Get Started</button>
             </div>
           </div>
-        </div>        
+        </div>
       </div>

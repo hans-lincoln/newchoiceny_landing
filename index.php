@@ -4,14 +4,14 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7 col-lg-6 col-sm-12">
-            <h1>NY teachers,<br/> keep more of what you earn</h1>
-            <p>Find out how you can save about $700/year by opting out of union dues. Learn your rights and choose what’s best for you.</p>
+            <h1>Public employees,<br/> keep more of what you earn</h1>
+            <p>Thousands of New York public employees like you are saving about $700/year by opting out of union dues… but is it right for you? Could your benefits or pay be affected? What about legal representation?</p>
             <div class="opt-form">
               <form action="step_1" method="post">
-                <label class="opt-form__label">Opting out is free and takes minutes</label>
+                <label class="opt-form__label">Get our free guide!</label>
                 <div class="d-flex align-items-center form-group mt-3">
-                  <input type="text" class="form-control" name="zip" value="" placeholder="Enter your zip code" />
-                  <button type="submit" class="btn btn-primary" name="submit">Start</button>
+                  <input type="email" class="form-control" name="email" value="" placeholder="Email address" />
+                  <button type="submit" class="btn btn-primary" name="submit">Get It</button>
                 </div>
               </form>
             </div>
@@ -39,7 +39,7 @@
             <div class="feature-group">
               <img src="assets/images/feature_2.png" alt="Opt out in 2 minutes" />
               <h3 class="feature-title">Opt out in 2 minutes</h3>
-              <p class="feature-description">Opting out used to be really difficult. NewChoiceNY to the rescue! Fill out our simple, confidential form. We do the rest.</p>
+              <p class="feature-description">Opting out used to be really difficult. Edunity to the rescue! Fill out our <a href="./step_1.php">simple, confidential form</a>. We do the rest.</p>
             </div>
           </div>
           <div class="col-md-12 col-lg-4 col-sm-12">
@@ -52,11 +52,11 @@
         </div>
         <div class="row">
           <div class="who-is-ny">
-            <img src="assets/images/light_orange_bg.png" alt="Orange Background" class="who-is-ny-image" />
+            <img src="assets/images/edunity_light_orange_bg.png" alt="Orange Background" class="who-is-ny-image" />
             <div class="who-is-ny-description row">
               <div class="col-8 offset-4">
-                <h4>Who is New Choice NY?</h4>
-                <p>New Choice NY is an independent, nonprofit, nonpartisan effort to educate public employees about their rights</p>
+                <h4>Who is Edunity?</h4>
+                <p>Edunity is an independent, nonprofit, nonpartisan effort to educate public employees about their rights</p>
               </div>
             </div>
           </div>
@@ -128,7 +128,7 @@
 
 <!--       <section class="feedbacks">
       <div class="container-fluid">
-        <h2 class="text-center">Trustworthy</h2>
+        <h2 class="text-center">Trustworthy - 4.1 Stars on TrustPilot!</h2>
         <div class="row">
           <div class="col-md-4 col-sm-12">
             <div class="feedback">
@@ -170,8 +170,8 @@
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="question-block">
-              <h3 class="question-title">Who is New Choice NY?</h3>
-              <p class="question-content">New Choice NY is an independent, nonprofit, nonpartisan effort to educate public employees in New York about their rights, empowering them to seek fair treatment from their unions and giving them a voice in the workplace. Contact us at <a href="mailto:info@newchoiceny.com">info@newchoiceny.com</a></p>
+              <h3 class="question-title">Who is Edunity?</h3>
+              <p class="question-content">Edunity is an independent, nonprofit, nonpartisan effort to educate public employees in New York about their rights, empowering them to seek fair treatment from their unions and giving them a voice in the workplace. Contact us at <a href="mailto:info@newchoiceny.com">info@edunity.io</a></p>
             </div>
             <div class="question-block">
               <h3 class="question-title">Will this affect my pension?</h3>
@@ -250,10 +250,9 @@
               <h2>Join tens of thousands of other NY teachers!</h2>
               <div class="opt-form">
                 <form action="step_1" method="post">
-                  <label class="opt-form__label">Opting out is free and takes minutes</label>
+                  <label class="opt-form__label">Opting out is free and takes 2 minutes!</label>
                   <div class="d-flex align-items-center form-group mt-3">
-                    <input type="text" class="form-control" name="zip" value="" placeholder="Enter your zip code" />
-                    <button type="submit" class="btn btn-primary" name="submit">Start</button>
+                    <button type="submit" class="btn btn-outline-primary" name="submit">Get Started</button>
                   </div>
                 </form>
               </div>
@@ -266,19 +265,20 @@
   <footer class="footer" id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-4 col-sm-12">
+        <div class="col-lg-6 col-md-8 col-sm-12 d-md-flex align-items-center">
+          <img src="assets/images/logo.png" class="footer-logo" alt="Logo" />
           <div class="copyright">
-            <span>Copyright 2019@</span>
-            <span>NewChoiceNY</span>
+            <p>In partnership with New Choice NY</p>
+            <p>Copyright 2019 © Edunity & New Choice NY</p>
           </div>
         </div>
-        <div class="col-lg-6 col-md-8 col-sm-12">
+        <div class="col-lg-6 col-md-4 col-sm-12">
           <div class="d-flex align-items-center justify-content-end footer-social-items">
             <!-- <button type="button" class="btn btn-outline-dark btn-message">
               <i class="fas fa-comment-alt"></i>
               <span>CHAT WITH US</span>
             </button> -->
-            <a target="_blank" href="#" class="btn btn-dark btn-social">
+            <a target="_blank" href="http://facebook.com/edunity.io" class="btn btn-dark btn-social">
               <i class="fab fa-facebook-f"></i>
             </a>
             <a target="_blank" href="#" class="btn btn-dark btn-social">

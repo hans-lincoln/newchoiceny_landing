@@ -30,9 +30,25 @@ img {
 
 .header .header-images img {
   margin-left: 33px;
-  width: 121px;
-  max-width: 121px;
+  width: 134px;
+  max-width: 134px;
   height: auto;
+}
+
+.header .header-images .header-btn {
+  margin-left: 35px;
+  width: 163px;
+  height: 55px;
+  font-family: Merriweather;
+  font-size: 20px;
+  border-radius: 35px;
+  color: #db5f5b;
+  border: 2px solid #db5f5b;
+}
+
+.header .header-images .header-btn:hover {
+  background-color: #db5f5b;
+  color: white;
 }
 
 .header .hero {
@@ -69,10 +85,25 @@ img {
 }
 
 .header .hero .opt-form .opt-form__label {
-  font-size: 20px;
+  position: relative;
+  font-family: Merriweather;
+  font-size: 30px;
   font-weight: bold;
   line-height: 30px;
   color: #DB5F5B;
+}
+
+.header .hero .opt-form .opt-form__label:after {
+  content: " ";
+  position: absolute;
+  bottom: -14px;
+  right: 0;
+  width: 170px;
+  height: 14px;
+  border: solid 4px #38f9be;
+  border-color: #38f9be transparent transparent transparent;
+  border-radius: 50%/10px 10px 0 0;
+  z-index: -1;
 }
 
 .header .hero .opt-form .form-control {
@@ -80,13 +111,16 @@ img {
   padding: 20px;
   border-radius: 28px;
   border: 1px solid #D7D7D7;
+  font-family: Lato;
   font-size: 20px;
+  font-weight: normal;
 }
 
 .header .hero .opt-form button {
   margin-left: -55px;
   width: 163px;
   height: 55px;
+  font-family: Merriweather;
   font-size: 20px;
   border-radius: 28px;
   background-color: #DB5F5B;
@@ -616,12 +650,14 @@ img {
 }
 
 .main-content .join-ny .opt-form {
-  margin-top: 8vw;
+  margin-top: 2vw;
 }
 
 .main-content .join-ny .opt-form .opt-form__label {
+  font-family: Merriweather;
   font-size: 20px;
   font-weight: bold;
+  letter-spacing: 1px;
   line-height: 30px;
   color: #DB5F5B;
 }
@@ -635,13 +671,18 @@ img {
 }
 
 .main-content .join-ny .opt-form button {
-  margin-left: -55px;
   width: 163px;
   height: 55px;
+  font-family: Merriweather;
   font-size: 20px;
-  border-radius: 28px;
-  background-color: #DB5F5B;
-  border-color: #DB5F5B;
+  border-radius: 35px;
+  color: #db5f5b;
+  border: 2px solid #db5f5b;
+}
+
+.main-content .join-ny .opt-form button:hover {
+  background-color: #db5f5b;
+  color: white;
 }
 
 .footer {
@@ -649,16 +690,24 @@ img {
   margin-top: 5vw;
 }
 
+.footer .footer-logo {
+  width: 174px;
+  margin-right: 32px;
+}
+
 .footer .copyright {
-  width: 150px;
   font-size: 16px;
   line-height: 26px;
-  text-align: center;
+  text-align: left;
   color: #2A1334;
 }
 
-.footer .copyright > span {
+.footer .copyright > p {
+  margin-bottom: 10px;
   display: block;
+  line-height: 1.19;
+  color: #2a1334;
+  opacity: 0.4;
 }
 
 .footer .footer-social-items .btn {
@@ -899,8 +948,13 @@ img {
     text-align: center;
   }
 
+  .main-content .join-ny .opt-form {
+    text-align: center;
+  }
+
   .main-content .join-ny .opt-form .opt-form__label {
     font-size: 18px;
+    text-align: center;
   }
 
   .main-content .join-ny .opt-form .form-control {
@@ -911,10 +965,16 @@ img {
   .main-content .join-ny .opt-form button {
     height: 45px;
     font-size: 16px;
+    margin: auto;
   }
 
   .footer .copyright {
     width: 100%;
+    text-align: center;
+  }
+
+  .footer .footer-logo {
+    margin: 0 auto 30px;
   }
 
   .footer .footer-social-items {
@@ -930,4 +990,14 @@ img {
 
 @media (max-width: 1199.98px) {
 
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    #adadad;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:    #adadad;
+}
+::placeholder { /* Most modern browsers support this now. */
+  color:    #adadad;
 }
