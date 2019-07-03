@@ -10,6 +10,10 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: #db5f5b;
+}
+
 .header {
   padding-top: 45px;
   background-image: url(./images/header_bg_left.svg);
