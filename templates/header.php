@@ -86,7 +86,7 @@
               <!-- <img src="assets/images/trustpilot.png" alt="Trust Pilot" /> -->
               <img src="assets/images/trustpilot-badge@2x.png" alt="Trust Pilot" />
               <img src="assets/images/ssl.png" alt="SSL Secure" />
-              <a href="./step1" class="btn btn-outline-primary header-btn">Get Started</a>
+              <a href="./step_1" class="btn btn-outline-primary header-btn">Get Started</a>
             </div>
           </div>
         </div>

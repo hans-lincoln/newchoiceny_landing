@@ -36,6 +36,9 @@ img {
 }
 
 .header .header-images .header-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 35px;
   width: 163px;
   height: 55px;
