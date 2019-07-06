@@ -7,10 +7,10 @@
             <h1>Public employees,<br/> keep more of what you earn</h1>
             <p>Thousands of New York public employees like you are saving about $700/year by opting out of union dues… but is it right for you? Could your benefits or pay be affected? What about legal representation?</p>
             <div class="opt-form">
-              <form action="step_1" method="post">
+              <form action="submit" method="post">
                 <label class="opt-form__label">Get our free guide!</label>
                 <div class="d-flex align-items-center form-group mt-3">
-                  <input type="email" class="form-control" name="email" value="" placeholder="Email address" />
+                  <input type="email" class="form-control" name="email" value="" placeholder="Email address" required />
                   <button type="submit" class="btn btn-primary" name="submit">Get It</button>
                 </div>
               </form>
@@ -249,7 +249,7 @@
             <div class="join-ny-section">
               <h2>Join tens of thousands of other NY teachers!</h2>
               <div class="opt-form">
-                <form action="step_1" method="post">
+                <form action="submit" method="post">
                   <label class="opt-form__label">Opting out is free and takes 2 minutes!</label>
                   <div class="d-flex align-items-center form-group mt-3">
                     <button type="submit" class="btn btn-outline-primary" name="submit">Get Started</button>
