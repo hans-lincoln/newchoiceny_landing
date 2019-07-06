@@ -3,7 +3,7 @@
 
   if (isset($_POST['submit']) && !empty($_POST['email'])) {
     $file = 'email_list.txt';
-    file_put_contents($file, $_POST['email'], FILE_APPEND | LOCK_EX);
+    file_put_contents($file, $_POST['email'] . "\r\n", FILE_APPEND | LOCK_EX);
   }
   ?>
   <script type="text/javascript">
