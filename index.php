@@ -39,24 +39,24 @@
             <div class="feature-group">
               <img src="assets/images/feature_2.png" alt="Opt out in 2 minutes" />
               <h3 class="feature-title">Opt out in 2 minutes</h3>
-              <p class="feature-description">Opting out used to be really difficult. Edunity to the rescue! Fill out our <a href="./step_1.php">simple, confidential form</a>. We do the rest.</p>
+              <p class="feature-description">Opting out used to be really difficult. New Choice NY to the rescue! Just fill out our <a href="./step_1.php">simple, confidential form</a>.</p>
             </div>
           </div>
           <div class="col-md-12 col-lg-4 col-sm-12">
             <div class="feature-group">
               <img src="assets/images/feature_3.png" alt="Save around $700/yr" />
               <h3 class="feature-title">Save around $700/yr</h3>
-              <p class="feature-description">We think teachers should be able to keep more of their hard-earned pay so they can focus on students. You choose.</p>
+              <p class="feature-description">We think public employees should be able to keep more of their hard-earned pay. You choose.</p>
             </div>
           </div>
         </div>
         <div class="row">
           <div class="who-is-ny">
-            <img src="assets/images/edunity_light_orange_bg.png" alt="Orange Background" class="who-is-ny-image" />
+            <img src="assets/images/light_orange_bg.png" alt="Orange Background" class="who-is-ny-image" />
             <div class="who-is-ny-description row">
               <div class="col-8 offset-4">
-                <h4>Who is Edunity?</h4>
-                <p>Edunity is an independent, nonprofit, nonpartisan effort to educate public employees about their rights</p>
+                <h4>Who is New Choice NY?</h4>
+                <p>New Choice NY is an independent, nonprofit, nonpartisan effort to educate public employees about their rights</p>
               </div>
             </div>
           </div>
@@ -170,8 +170,8 @@
         <div class="row">
           <div class="col-lg-6 col-md-12">
             <div class="question-block">
-              <h3 class="question-title">Who is Edunity?</h3>
-              <p class="question-content">Edunity is an independent, nonprofit, nonpartisan effort to educate public employees in New York about their rights, empowering them to seek fair treatment from their unions and giving them a voice in the workplace. Contact us at <a href="mailto:info@newchoiceny.com">info@edunity.io</a></p>
+              <h3 class="question-title">Who is New Choice NY?</h3>
+              <p class="question-content">New Choice NY is an independent, nonprofit, nonpartisan effort to educate public employees in New York about their rights, empowering them to seek fair treatment from their unions and giving them a voice in the workplace. Contact us at <a href="mailto:info@newchoiceny.com">info@newchoiceny.io</a></p>
             </div>
             <div class="question-block">
               <h3 class="question-title">Will this affect my pension?</h3>

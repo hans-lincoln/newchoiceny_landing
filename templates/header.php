@@ -78,7 +78,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-6 col-sm-12">
             <a href="/">
-              <img src="assets/images/edunity-logo@2x.png" alt="logo" class="logo" />
+              <img src="assets/images/logo.png" alt="logo" class="logo" />
             </a>
           </div>
           <div class="col-md-6 col-lg-6 col-sm-12">
