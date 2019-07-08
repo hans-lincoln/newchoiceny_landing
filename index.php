@@ -247,7 +247,7 @@
           </div>
           <div class="col-md-7 col-lg-6 col-sm-12">
             <div class="join-ny-section">
-              <h2>Join tens of thousands of other NY teachers!</h2>
+              <h2>Join tens of thousands of other NY public employees!</h2>
               <div class="opt-form">
                 <form action="./step_1" method="post">
                   <label class="opt-form__label">Opting out is free and takes 2 minutes!</label>
