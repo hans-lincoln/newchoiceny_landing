@@ -126,33 +126,21 @@
       </div>
     </section>
 
-<!--       <section class="feedbacks">
-      <div class="container-fluid">
+    
+
+      <section class="feedbacks">
+      <div class="container">
         <h2 class="text-center">Trustworthy - 4.1 Stars on TrustPilot!</h2>
         <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <div class="feedback">
-              <h4>Excellent</h4>
-              <div class="feedback-stars">
-                <img src="./assets/images/green_star.svg" alt="star" />
-                <img src="./assets/images/green_star.svg" alt="star" />
-                <img src="./assets/images/green_star.svg" alt="star" />
-                <img src="./assets/images/green_star.svg" alt="star" />
-                <img src="./assets/images/green_star.svg" alt="star" />
-              </div>
-              <div class="feedback-description">
-                Based on <u>291 reviews</u>
-              </div>
-              <img src="./assets/images/trustpilot_small.png" class="trust-pilot" alt="Trustpilot" />
-            </div>
-          </div>
-          <div class="col-md-8 col-sm-12">
+          <div class="col-md-12">
+            <!-- Begin Repuso widget code -->
             <div data-repuso-grid="9401"></div>
             <script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
+            <!-- End Repuso widget code --> 
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <section class="take-quiz">
       <div class="container">
