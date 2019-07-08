@@ -39,7 +39,7 @@ a {
   height: auto;
 }
 
-.header .header-images .header-btn {
+.header .header-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,9 +53,13 @@ a {
   border: 2px solid #db5f5b;
 }
 
-.header .header-images .header-btn:hover {
+.header .header-btn:hover {
   background-color: #db5f5b;
   color: white;
+}
+
+.header .header-logo .header-btn {
+  display: none;
 }
 
 .header .hero {
@@ -794,8 +798,13 @@ a {
     padding-top: 25px;
   }
 
-  .header .logo {
+  .header .header-logo {
     margin-bottom: 45px;
+  }
+
+  .header .logo {
+    margin-left: 20px;
+    width: 140px;
   }
 
   .header .hero h1 {
@@ -814,12 +823,20 @@ a {
 
   .header .hero .opt-form .form-control {
     height: 45px;
-    font-size: 16px;
   }
 
   .header .hero .opt-form button {
     height: 45px;
-    font-size: 16px
+  }
+
+  .header .header-logo .header-btn {
+    display: flex;
+    float: right;
+    margin-left: 0;
+  }
+
+  .header .header-images .header-btn {
+    display: none;
   }
 
   .header .information h1 {

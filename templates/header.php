@@ -77,9 +77,12 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-lg-6 col-sm-12">
-            <a href="/">
-              <img src="assets/images/edunity-logo@2x.png" alt="logo" class="logo" />
-            </a>
+            <div class="header-logo">
+              <a href="/">
+                <img src="assets/images/edunity-logo@2x.png" alt="logo" class="logo" />
+              </a>
+              <a href="./step_1" class="btn btn-outline-primary header-btn">Get Started</a>
+            </div>
           </div>
           <div class="col-md-6 col-lg-6 col-sm-12">
             <div class="d-flex justify-content-between align-items-center header-images" style="justify-content:center !important;">
