@@ -278,8 +278,11 @@
               <i class="fas fa-comment-alt"></i>
               <span>CHAT WITH US</span>
             </button> -->
-            <a target="_blank" href="http://facebook.com/edunity.io" class="btn btn-dark btn-social">
+            <a target="_blank" href="https://www.facebook.com/newchoiceny/" class="btn btn-dark btn-social">
               <i class="fab fa-facebook-f"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/newchoiceny" class="btn btn-dark btn-social">
+              <i class="fab fa-twitter"></i>
             </a>
           </div>
         </div>
