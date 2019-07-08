@@ -171,7 +171,7 @@
           <div class="col-lg-6 col-md-12">
             <div class="question-block">
               <h3 class="question-title">Who is New Choice NY?</h3>
-              <p class="question-content">New Choice NY is an independent, nonprofit, nonpartisan effort to educate public employees in New York about their rights, empowering them to seek fair treatment from their unions and giving them a voice in the workplace. Contact us at <a href="mailto:info@newchoiceny.com">info@newchoiceny.io</a></p>
+              <p class="question-content">New Choice NY is an independent, nonprofit, nonpartisan effort to educate public employees in New York about their rights, empowering them to seek fair treatment from their unions and giving them a voice in the workplace. Contact us at <a href="mailto:info@newchoiceny.com">info@newchoiceny.com</a></p>
             </div>
             <div class="question-block">
               <h3 class="question-title">Will this affect my pension?</h3>
