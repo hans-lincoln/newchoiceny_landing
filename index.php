@@ -249,7 +249,7 @@
             <div class="join-ny-section">
               <h2>Join tens of thousands of other NY teachers!</h2>
               <div class="opt-form">
-                <form action="submit" method="post">
+                <form action="./step_1" method="post">
                   <label class="opt-form__label">Opting out is free and takes 2 minutes!</label>
                   <div class="d-flex align-items-center form-group mt-3">
                     <button type="submit" class="btn btn-outline-primary" name="submit">Get Started</button>
