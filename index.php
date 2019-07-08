@@ -268,8 +268,7 @@
         <div class="col-lg-6 col-md-8 col-sm-12 d-md-flex align-items-center">
           <img src="assets/images/logo.png" class="footer-logo" alt="Logo" />
           <div class="copyright">
-            <p>In partnership with New Choice NY</p>
-            <p>Copyright 2019 © Edunity & New Choice NY</p>
+            <p>Copyright 2019 © New Choice NY</p>
           </div>
         </div>
         <div class="col-lg-6 col-md-4 col-sm-12">
