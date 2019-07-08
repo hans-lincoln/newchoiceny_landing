@@ -126,33 +126,19 @@
       </div>
     </section>
 
-<!--       <section class="feedbacks">
-      <div class="container-fluid">
+      <section class="feedbacks">
+      <div class="container">
         <h2 class="text-center">Trustworthy - 4.1 Stars on TrustPilot!</h2>
         <div class="row">
-          <div class="col-md-4 col-sm-12">
-            <div class="feedback">
-              <h4>Excellent</h4>
-              <div class="feedback-stars">
-                <img src="./assets/images/green_star.svg" alt="star" />
-                <img src="./assets/images/green_star.svg" alt="star" />
-                <img src="./assets/images/green_star.svg" alt="star" />
-                <img src="./assets/images/green_star.svg" alt="star" />
-                <img src="./assets/images/green_star.svg" alt="star" />
-              </div>
-              <div class="feedback-description">
-                Based on <u>291 reviews</u>
-              </div>
-              <img src="./assets/images/trustpilot_small.png" class="trust-pilot" alt="Trustpilot" />
-            </div>
-          </div>
-          <div class="col-md-8 col-sm-12">
+          <div class="col-md-12">
+            <!-- Begin Repuso widget code -->
             <div data-repuso-grid="9401"></div>
             <script type="text/javascript" src="https://repuso.com/widgets/grid.js" async></script>
+            <!-- End Repuso widget code --> 
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <section class="take-quiz">
       <div class="container">
@@ -171,7 +157,7 @@
           <div class="col-lg-6 col-md-12">
             <div class="question-block">
               <h3 class="question-title">Who is Edunity?</h3>
-              <p class="question-content">Edunity is an independent, nonprofit, nonpartisan effort to educate public employees in New York about their rights, empowering them to seek fair treatment from their unions and giving them a voice in the workplace. Contact us at <a href="mailto:info@newchoiceny.com">info@edunity.io</a></p>
+              <p class="question-content">Edunity is an independent, nonprofit, nonpartisan effort to educate public employees in New York about their rights, empowering them to seek fair treatment from their unions and giving them a voice in the workplace. Contact us at <a href="mailto:info@edunity.io">info@edunity.io</a></p>
             </div>
             <div class="question-block">
               <h3 class="question-title">Will this affect my pension?</h3>
@@ -247,7 +233,7 @@
           </div>
           <div class="col-md-7 col-lg-6 col-sm-12">
             <div class="join-ny-section">
-              <h2>Join tens of thousands of other NY teachers!</h2>
+              <h2>Join tens of thousands of other NY public employees!</h2>
               <div class="opt-form">
                 <form action="submit" method="post">
                   <label class="opt-form__label">Opting out is free and takes 2 minutes!</label>
