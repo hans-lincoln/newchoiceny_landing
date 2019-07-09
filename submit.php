@@ -10,7 +10,7 @@
     fbq('track', 'Lead');
     
     setTimeout(() => {
-      window.location.href = './New_Choice_NY_Opt_Out_Guide.pdf';
+      window.location.href = './New Choice NY Opt Out Guide.pdf';
     }, 3000);
   </script>
   <section class="information">
