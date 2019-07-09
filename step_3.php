@@ -5,7 +5,7 @@
         <div class="col-md-6 col-lg-6 col-sm-12">
           <h1>Enter employer and union info</h1>
           <h4>This information allows us to send your request to the right people, whether to your employer or union.</h4>
-          <p>By clicking submit, you indicate that you have read and agree to our Terms of Service. You also affirm that you are the person named above. You understand that exercising your Janus rights will mean you will no longer be a member of the union and won't receive certain union services. You consent to sending a reqeust to your reployer and if necessary to the union.</p>
+          <p>By clicking submit, you indicate that you have read and agree to our Terms of Service. You also affirm that you are the person named above. You understand that exercising your Janus rights will mean you will no longer be a member of the union and won't receive certain union services. You consent to sending a request to your employer and if necessary to the union.</p>
         </div>
         <div class="col-md-6 col-lg-6 col-sm-12 text-right">
           <div class="information_inner">
