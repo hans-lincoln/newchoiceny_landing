@@ -121,7 +121,7 @@ $(document).ready(function() {
   $('#final_form').submit(function(event) {
     event.preventDefault();
 
-    var hookUrl = 'https://api.edunity.us/v1/submissions';
+    var hookUrl = 'https://api.edunity.io/v1/submissions';
     var data = {
       campaign_uuid: 'e7158017-282f-482d-9ffa-c3281493296f',
       first_name: this.first_name.value,
